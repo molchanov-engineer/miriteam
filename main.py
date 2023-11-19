@@ -8,9 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import math
 
-TELEGRAM_BOT_TOKEN = 
-
-bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
+bot = telebot.TeleBot('TOKEN')
 opros=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 otv1=0
 otv2=0
