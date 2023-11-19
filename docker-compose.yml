@@ -1,0 +1,18 @@
+# Maintainer: molchanov.engineer
+# Made for hack.miriteam.com by "Мнимые Метаморфозы"
+
+version: '3'
+services:
+    app:
+      deploy:
+        resources:
+          limits:
+            cpus: '0.5'
+            memory: 256M
+          reservations:
+            cpus: '0.3'
+            memory: 128M
+      build:
+        context: .
+        dockerfile: Dockerfile
+      env_file: .env

@@ -1,0 +1,6 @@
+telebot
+selenium
+bs4
+python-dotenv
+pywin32;platform_system == "Windows"
+webdriver-manager
