@@ -9,8 +9,6 @@ RUN mkdir /opt/program
 
 WORKDIR /opt/program
 
-COPY .env ./.env
-
 COPY main.py ./main.py
 
 ENTRYPOINT ["python", "./main.py"]
