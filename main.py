@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import telebot
 from telebot import types
 import time
@@ -8,7 +9,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import math
 
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('6890216286:AAHztvDm1AFM4Dq0uhL3RrHJgp3qruhJ0FY')
 opros=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 otv1=0
 otv2=0
