@@ -1,4 +1,4 @@
-FROM python:3.5-alpine3.10
+FROM python:3.10-alpine3.18
 LABEL authors="Красноглазик"
 
 COPY requirements.txt requirements.txt
